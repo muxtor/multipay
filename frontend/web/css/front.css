@@ -1,0 +1,51 @@
+#payplanned-days_of_week input[type="checkbox"],
+#payplanned-days_of_month input[type="checkbox"] {
+    display: none;
+}
+#payplanned-days_of_week input[type="checkbox"]:checked + span,
+#payplanned-days_of_month input[type="checkbox"]:checked + span {
+     color: #006494;
+     text-decoration: underline;
+}
+#payplanned-days_of_week input[type="checkbox"] + span,
+#payplanned-days_of_month input[type="checkbox"] + span {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+}
+.b-payment-form.planned-payments {
+    padding-top: 0px;
+}
+#pay-plan-update .btn.b-gray,
+.b-table-add-to-fav .btn.b-gray {
+    border-radius: 0px;
+    padding: 0px;
+}
+.b-payments-edit-info span#plan-pay-currency {
+    float: left;
+    padding-left: 14px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #404040;
+    font-size: 15px;
+    text-align: right;
+    text-transform: uppercase;
+}
+form#filter input[type="checkbox"] {
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background: url(../images/reg-checkbox.png) no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+form#filter input[type="checkbox"]:checked {
+    background-position: 0 -20px;
+}
+.user_settings_hint {
+    font-size: 13px;
+    color: #777777;
+}

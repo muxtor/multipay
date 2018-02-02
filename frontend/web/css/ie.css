@@ -1,0 +1,5 @@
+.b-login-form .b-form .b-input,.b-search-wrapper .b-search,.b-slider-block .b-register-block .b-form .b-input,.b-register-wrapper .b-form .b-input, .b-payment-form .b-input,.b-bonus-link-wrapper .b-input,.b-input.b-date,.b-table-add-to-fav .b-input,.b-history-filter .b-input,.b-settings-wrapper .b-settings-table .b-input{line-height:38px !important;}
+.b-refer-filed-wrapper .b-input{line-height:33px !important;}
+.b-card-number-input{line-height:32px !important;}
+.b-search-field .b-input,.b-payments-edit-info .b-input{line-height:28px !important;}
+.b-planned-date .b-input.b-date, .b-planned-date .b-input{line-height:30px !important;}

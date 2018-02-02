@@ -1,0 +1,1 @@
+<?= $model->page_text ?>
